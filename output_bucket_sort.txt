@@ -1,0 +1,73 @@
+              BUCKET SORT - TEST CASES
+TEST CASE 1: Small Array
+
+Before sorting: 42 32 33 52 37 47 51 
+After sorting:  32 33 37 42 47 51 52 
+Result: PASS 
+
+TEST CASE 2: Array with Duplicates
+
+Before sorting: 5 2 8 2 9 1 5 5 3 
+After sorting:  1 2 2 3 5 5 5 8 9 
+Result: PASS 
+
+TEST CASE 3: Uniformly Distributed Data (Best Case)
+
+Before sorting: 55 35 30 10 70 95 60 40 90 45 85 50 5 15 0 65 25 75 20 80 
+After sorting:  0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 
+Result: PASS 
+
+TEST CASE 4: Already Sorted Array
+
+Before sorting: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+After sorting:  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+Time taken: 0.0333 ms
+Result: PASS 
+
+TEST CASE 5: Reverse Sorted Array
+
+Before sorting: 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 
+After sorting:  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+Time taken: 0.0248 ms
+Result: PASS 
+
+TEST CASE 6: Single Element Array
+
+Before sorting: 99 
+After sorting:  99 
+Result: PASS 
+
+TEST CASE 7: All Same Elements
+
+Before sorting: 50 50 50 50 50 50 50 50 50 50 
+After sorting:  50 50 50 50 50 50 50 50 50 50 
+Result: PASS 
+
+TEST CASE 8: Skewed Data (Worst Case)
+
+Before sorting: 8 1 2 8 5 9 2 2 8 3 1 8 4 1 7 7 3 9 7 7 
+After sorting:  1 1 1 2 2 2 3 3 4 5 7 7 7 7 8 8 8 8 9 9 
+Result: PASS 
+
+TEST CASE 9: Performance Test (1,000 elements, uniform)
+
+Array size: 1000
+Distribution: Uniform
+Time taken: 1.1724 ms
+Result: PASS 
+
+TEST CASE 10: Performance Test (5,000 elements, random)
+
+Array size: 5000
+Distribution: Random
+Time taken: 6.7005 ms
+Result: PASS 
+
+TEST CASE 11: Performance Test (10,000 elements)
+
+Array size: 10000
+Value range: 0-99999
+Time taken: 13.3673 ms
+Result: PASS ✓
+
+                  ALL TESTS COMPLETED

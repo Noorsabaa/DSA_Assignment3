@@ -1,0 +1,76 @@
+
+PIGEONHOLE SORT - TEST CASES
+
+TEST CASE 1: Small Array
+
+Before sorting: 8 3 2 7 4 6 8 
+After sorting:  2 3 4 6 7 8 8 
+Result: PASS
+
+TEST CASE 2: Array with Many Duplicates
+
+Before sorting: 5 2 2 7 1 5 3 2 5 1 7 3 5 
+After sorting:  1 1 2 2 2 3 3 5 5 5 5 7 7 
+Result: PASS
+
+TEST CASE 3: Already Sorted Array
+
+Before sorting: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+After sorting:  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+Time taken: 0.0027 ms
+Result: PASS
+
+TEST CASE 4: Reverse Sorted Array
+
+Before sorting: 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 
+After sorting:  0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 
+Time taken: 0.0027 ms
+Result: PASS
+
+TEST CASE 5: Single Element Array
+
+Before sorting: 42 
+After sorting:  42 
+Result: PASS
+
+TEST CASE 6: All Same Elements
+
+Before sorting: 7 7 7 7 7 7 7 7 7 7 
+After sorting:  7 7 7 7 7 7 7 7 7 7 
+Result: PASS
+
+TEST CASE 7: Performance Test (1,000 elements, range 0-99)
+
+Array size: 1000
+Value range: 0-99
+Time taken: 0.0675 ms
+Result: PASS
+
+TEST CASE 8: Performance Test (5,000 elements, range 0-999)
+
+Array size: 5000
+Value range: 0-999
+Time taken: 0.3463 ms
+Result: PASS
+
+TEST CASE 9: Performance Test (10,000 elements, range 0-9999)
+
+Array size: 10000
+Value range: 0-9999
+Time taken: 1.1814 ms
+Result: PASS
+
+TEST CASE 10: Array with Negative Numbers
+
+Before sorting: -5 3 -2 8 -1 0 4 -3 2 
+After sorting:  -5 -3 -2 -1 0 2 3 4 8 
+Result: PASS
+
+TEST CASE 11: Two Elements
+
+Before sorting: 9 1 
+After sorting:  1 9 
+Result: PASS
+
+ALL TESTS COMPLETED
+
